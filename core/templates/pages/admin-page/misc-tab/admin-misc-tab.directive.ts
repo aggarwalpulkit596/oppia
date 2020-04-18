@@ -43,7 +43,7 @@ angular.module('oppia').directive('adminMiscTab', [
         var SEND_DUMMY_MAIL_HANDLER_URL = (
           '/sendDummyMailToAdminHandler');
         var GET_INTERACTIONS_BY_ID_HANDLER_URL = (
-          '/getInteractionsByExplorationId');  
+          '/getInteractionsByExplorationId');
 
         var irreversibleActionMessage = (
           'This action is irreversible. Are you sure?');
