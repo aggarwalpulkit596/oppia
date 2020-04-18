@@ -848,6 +848,7 @@ class SendDummyMailToAdminHandler(base.BaseHandler):
             self.render_json({})
         else:
             raise self.InvalidInputException('This app cannot send emails.')
+        
 
 class GetInteractionsByExplorationId(base.BaseHandler):
     """This function returns a list of interaction id's for a exploration id."""
