@@ -855,6 +855,5 @@ class GetInteractionsByExplorationId(base.BaseHandler):
     @acl_decorators.can_access_admin_page
     def post(self):
         exploartion_id = self.request.get('exploration_id')
-        exploration = exp_fetchers.get_exploration_by_id(
-                exploartion_id)
+        exploration = exp_fetchers.get_exploration_by_id(exploartion_id)
         self.render_json(exploration)
